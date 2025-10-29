@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # 🚀 LLM Engineering Hub
 
@@ -30,25 +30,12 @@
 ## 📖 Table of Contents
 
 - [✨ About](#-about-this-repository)
-- [🗂️ Repository Structure](#️-repository-structure)
-- [🚀 Quick Start](#-quick-start-guide)
+- [ Quick Start](#-quick-start-guide)
 - [🎓 Learning Paths](#-learning-paths)
 - [📂 Content Sections](#-content-sections)
-  - [📚 Tutorials](#-tutorials)
-  - [📄 Research Papers](#-research-papers)
-  - [🗃️ Datasets](#️-datasets)
-  - [🛠️ Tools & Libraries](#️-tools--libraries)
-  - [⚙️ Fine-Tuning](#️-fine-tuning)
-  - [🎨 Prompt Engineering](#-prompt-engineering)
-  - [☁️ Deployment](#️-deployment)
-  - [⚖️ Ethics & Safety](#️-ethics--safety)
-  - [💼 Case Studies](#-case-studies)
-  - [📊 Visualizations](#-visualizations)
-  - [🌐 Community Resources](#-community-resources)
 - [✨ Key Features](#-key-features)
 - [📖 How to Use](#-how-to-use-this-repository)
 - [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 
 ---
 
@@ -136,47 +123,6 @@ We believe that:
 ✅ **Product Managers** - Understand capabilities  
 ✅ **Educators** - Teaching resources  
 ✅ **Entrepreneurs** - Build AI products
-
----
-
-## �️ Repository Structure
-
-```
-LLM-Engineering/
-│
-├── 📚 Tutorials/
-│   ├── Beginner/                    # Start here: LLM fundamentals, transformers, tokenization
-│   ├── Intermediate/                # Advance: Fine-tuning, RAG, optimization techniques
-│   └── Advanced/                    # Expert: RLHF, MoE, scaling, research frontiers
-│
-├── 📄 Research-Papers/
-│   ├── Model-Architecture/          # Transformer, GPT, BERT, LLaMA, Mistral, MoE
-│   ├── Training-Techniques/         # Scaling laws, distributed training, optimization
-│   └── Evaluation/                  # Benchmarks, MMLU, HumanEval, safety metrics
-│
-├── 🗃️ Datasets/                     # The Pile, C4, RedPajama, Alpaca, domain datasets
-│
-├── 🛠️ Tools-and-Libraries/          # Transformers, DeepSpeed, vLLM, LangChain, Ollama
-│
-├── ⚙️ Fine-Tuning/                  # LoRA, QLoRA, full fine-tuning, PEFT techniques
-│
-├── 🎨 Prompt-Engineering/           # CoT, few-shot, ReAct, templates, best practices
-│
-├── ☁️ Deployment/                   # Self-hosting, cloud platforms, optimization, monitoring
-│
-├── ⚖️ Ethics-and-Safety/            # Bias mitigation, privacy, security, responsible AI
-│
-├── 💼 Case-Studies/                 # Real-world: ChatGPT, Copilot, healthcare, finance
-│
-├── 📊 Visualizations/               # Architecture diagrams, concept maps, flowcharts
-│
-├── 🌐 Community-Resources/          # Forums, newsletters, YouTube, podcasts, conferences
-│
-├── 📜 LICENSE                       # MIT License
-├── 📋 CHANGELOG.md                  # Version history and updates
-├── 👥 CONTRIBUTORS.md               # Our amazing contributors
-└── 📖 README.md                     # You are here!
-```
 
 ---
 
