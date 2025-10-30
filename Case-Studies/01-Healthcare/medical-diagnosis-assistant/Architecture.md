@@ -1,6 +1,6 @@
 # 🏗️ Medical Diagnosis Assistant - Solution Architecture
 
-📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./README_Overview.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [💻 Code](./README_Code_Snippets.md) | [🚀 Future](./README_Future_Improvements.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./Overview.md) | [⚠️ Challenges](./Challenges.md) | [💻 Code](./Code.md) | [🚀 Future](./Future.md)
 
 ---
 
@@ -1321,5 +1321,5 @@ errors_total = Counter(
 
 ---
 
-📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./README_Overview.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [💻 Code](./README_Code_Snippets.md) | [🚀 Future](./README_Future_Improvements.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./Overview.md) | [⚠️ Challenges](./Challenges.md) | [💻 Code](./Code.md) | [🚀 Future](./Future.md)
 

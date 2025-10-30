@@ -1,6 +1,6 @@
 # 📊 Medical Diagnosis Assistant - Overview & Results
 
-📑 **Navigation**: [🏠 Main](./README.md) | [🏗️ Architecture](./README_Solution_Architecture.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [💻 Code](./README_Code_Snippets.md) | [🚀 Future](./README_Future_Improvements.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [🏗️ Architecture](./Architecture.md) | [⚠️ Challenges](./Challenges.md) | [💻 Code](./Code.md) | [🚀 Future](./Future.md)
 
 ---
 
@@ -699,11 +699,11 @@ Payback Period: 502K / 3,900K × 12 = 1.5 months
 - ✅ RAG critical for reducing hallucinations and building trust
 
 **Next recommended reading:**
-- 🏗️ [Architecture Details](./README_Solution_Architecture.md) - Deep dive into technical implementation
-- 💻 [Complete Code](./README_Code_Snippets.md) - Runnable Python implementation
-- ⚠️ [Challenges & Lessons](./README_Challenges_Solutions.md) - Avoid common pitfalls
+- 🏗️ [Architecture Details](./Architecture.md) - Deep dive into technical implementation
+- 💻 [Complete Code](./Code.md) - Runnable Python implementation
+- ⚠️ [Challenges & Lessons](./Challenges.md) - Avoid common pitfalls
 
 ---
 
-📑 **Navigation**: [🏠 Main](./README.md) | [🏗️ Architecture](./README_Solution_Architecture.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [💻 Code](./README_Code_Snippets.md) | [🚀 Future](./README_Future_Improvements.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [🏗️ Architecture](./Architecture.md) | [⚠️ Challenges](./Challenges.md) | [💻 Code](./Code.md) | [🚀 Future](./Future.md)
 

@@ -1,6 +1,6 @@
 # 🚀 Medical Diagnosis Assistant - Future Improvements
 
-📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./README_Overview.md) | [🏗️ Architecture](./README_Solution_Architecture.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [💻 Code](./README_Code_Snippets.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./Overview.md) | [🏗️ Architecture](./Architecture.md) | [⚠️ Challenges](./Challenges.md) | [💻 Code](./Code.md)
 
 ---
 
@@ -1308,5 +1308,5 @@ Research (Ongoing):
 
 ---
 
-📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./README_Overview.md) | [🏗️ Architecture](./README_Solution_Architecture.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [💻 Code](./README_Code_Snippets.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./Overview.md) | [🏗️ Architecture](./Architecture.md) | [⚠️ Challenges](./Challenges.md) | [💻 Code](./Code.md)
 

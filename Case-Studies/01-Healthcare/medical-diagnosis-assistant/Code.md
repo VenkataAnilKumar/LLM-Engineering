@@ -1,6 +1,6 @@
 # 💻 Medical Diagnosis Assistant - Complete Code
 
-📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./README_Overview.md) | [🏗️ Architecture](./README_Solution_Architecture.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [🚀 Future](./README_Future_Improvements.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./Overview.md) | [🏗️ Architecture](./Architecture.md) | [⚠️ Challenges](./Challenges.md) | [🚀 Future](./Future.md)
 
 ---
 
@@ -1874,5 +1874,5 @@ if __name__ == "__main__":
 
 ---
 
-📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./README_Overview.md) | [🏗️ Architecture](./README_Solution_Architecture.md) | [⚠️ Challenges](./README_Challenges_Solutions.md) | [🚀 Future](./README_Future_Improvements.md)
+📑 **Navigation**: [🏠 Main](./README.md) | [📊 Overview](./Overview.md) | [🏗️ Architecture](./Architecture.md) | [⚠️ Challenges](./Challenges.md) | [🚀 Future](./Future.md)
 
