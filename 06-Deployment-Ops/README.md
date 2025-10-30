@@ -2,6 +2,16 @@
 
 Model serving, optimization, scaling, monitoring.
 
+## 📊 Legend
+
+- 🟢 **Easy** - Quick setup, beginner-friendly
+- 🟡 **Moderate** - Some DevOps experience needed  
+- 🔴 **Complex** - Advanced setup, production-grade
+- ⚡ **Performance** - Speed/throughput rating
+- 💰 **Cost** - Resource requirements
+- 📅 **Updated** - Last verified
+- 🏢 **Production-Ready** - Battle-tested at scale
+
 ---
 
 ## 🚀 Inference Servers
@@ -326,8 +336,159 @@ Model serving, optimization, scaling, monitoring.
 - **Note:** Low-latency, low-cost inference.
 
 ### Triton Inference Server
+- 🔴 Complex | ⚡⚡⚡⚡⚡ Excellent | 📅 Oct 2025 | 🏢 Production
 - **URL:** https://github.com/triton-inference-server/server
 - **Type:** Inference Server
 - **Maintainer:** NVIDIA
 - **License:** BSD 3-Clause
 - **Note:** Multi-framework inference serving.
+
+---
+
+## 🔀 Deployment Comparison Tables
+
+### Inference Servers Performance
+
+| Server | Throughput | Latency | Hardware | Setup Complexity | Best For |
+|--------|------------|---------|----------|------------------|----------|
+| **vLLM** | ⚡⚡⚡⚡⚡ Best | ⚡⚡⚡⚡ Low | GPU | 🟢 Easy | High-throughput production |
+| **TGI** | ⚡⚡⚡⚡ High | ⚡⚡⚡⚡ Low | GPU | 🟢 Easy | HF models, streaming |
+| **llama.cpp** | ⚡⚡⚡ Good | ⚡⚡⚡ Medium | CPU/GPU/Metal | 🟢 Easy | Local, CPU inference |
+| **Ollama** | ⚡⚡⚡ Good | ⚡⚡⚡ Medium | CPU/GPU | 🟢 Very Easy | Development, local API |
+| **TensorRT-LLM** | ⚡⚡⚡⚡⚡ Best | ⚡⚡⚡⚡⚡ Lowest | NVIDIA GPU | 🔴 Complex | Maximum performance |
+| **LocalAI** | ⚡⚡ Moderate | ⚡⚡⚡ Medium | CPU/GPU | 🟢 Easy | OpenAI-compatible local |
+
+### Quantization Methods
+
+| Method | Model Size | Speed | Accuracy | Use Case |
+|--------|------------|-------|----------|----------|
+| **FP16** | 50% | ⚡⚡⚡⚡ Fast | ⭐⭐⭐⭐⭐ Perfect | GPU with FP16 support |
+| **INT8** | 25% | ⚡⚡⚡⚡⚡ Very Fast | ⭐⭐⭐⭐ Very Good | Production, minimal loss |
+| **INT4** | 12.5% | ⚡⚡⚡⚡⚡ Very Fast | ⭐⭐⭐ Good | Consumer GPUs |
+| **GPTQ** | 12.5-25% | ⚡⚡⚡⚡⚡ Very Fast | ⭐⭐⭐⭐ Very Good | Optimal quality/size |
+| **AWQ** | 12.5-25% | ⚡⚡⚡⚡⚡ Very Fast | ⭐⭐⭐⭐ Very Good | Activation-aware |
+| **GGUF** | Variable | ⚡⚡⚡⚡ Fast | ⭐⭐⭐ Good | llama.cpp, CPU |
+
+### Cloud Platform Comparison
+
+| Platform | Ease of Use | Cost | GPU Options | Spot/Preemptible | Best For |
+|----------|-------------|------|-------------|------------------|----------|
+| **HF Inference** | 🟢 Very Easy | 💰💰 Low | Limited | ❌ No | Quick deployment, testing |
+| **AWS SageMaker** | 🟡 Moderate | 💰💰💰 High | Excellent | ✅ Yes | Enterprise, flexible |
+| **GCP Vertex AI** | 🟡 Moderate | 💰💰💰 High | Good | ✅ Yes | Google ecosystem |
+| **Azure ML** | 🟡 Moderate | 💰💰💰 High | Good | ✅ Yes | Microsoft stack |
+| **RunPod** | 🟢 Easy | 💰💰 Low | Excellent | ✅ Yes | Cost-effective GPUs |
+| **Lambda Labs** | 🟢 Easy | 💰💰 Low | Good | ❌ No | Budget-friendly |
+| **Modal** | 🟢 Easy | 💰💰 Medium | Good | ❌ Auto-scale | Serverless deployment |
+
+### Optimization Techniques Impact
+
+| Technique | Throughput Gain | Memory Saving | Implementation | Accuracy Impact |
+|-----------|-----------------|---------------|----------------|-----------------|
+| **PagedAttention** | 2-3x | 50%+ | vLLM | None |
+| **Continuous Batching** | 2-10x | Minimal | vLLM, TGI | None |
+| **FlashAttention-2** | 2x | 30% | PyTorch, vLLM | None |
+| **Tensor Parallelism** | Linear | None | TGI, vLLM | None |
+| **INT8 Quantization** | 1.5-2x | 50% | AutoGPTQ, bitsandbytes | Minimal |
+| **Speculative Decoding** | 2-3x | None | Complex setup | None |
+
+---
+
+## 🎓 Deployment Strategy Guide
+
+### Phase 1: Development (Local)
+**Tools**: Ollama, llama.cpp, LM Studio
+- 🎯 **Goal**: Fast iteration, testing
+- 💰 **Cost**: Free (your hardware)
+- 📊 **Scale**: Single user
+- ⏱️ **Setup**: 5-10 minutes
+
+### Phase 2: MVP/Beta (Small Scale)
+**Tools**: HF Inference Endpoints, Modal, RunPod
+- 🎯 **Goal**: 10-1000 users
+- 💰 **Cost**: $50-500/month
+- 📊 **Scale**: Light production
+- ⏱️ **Setup**: 1-2 hours
+
+### Phase 3: Production (Medium Scale)
+**Tools**: vLLM + K8s, TGI + Docker, Cloud managed
+- 🎯 **Goal**: 1K-100K users
+- 💰 **Cost**: $500-5K/month
+- 📊 **Scale**: Real production
+- ⏱️ **Setup**: 1-2 days
+
+### Phase 4: Enterprise (Large Scale)
+**Tools**: TensorRT-LLM, Custom infra, Multi-region
+- 🎯 **Goal**: 100K+ users
+- 💰 **Cost**: $5K+/month
+- 📊 **Scale**: High availability
+- ⏱️ **Setup**: 1-2 weeks
+
+---
+
+## 🔑 Key Decision Points
+
+**Choose vLLM if:**
+- Need maximum throughput
+- Serving many concurrent users
+- Using standard model architectures
+- Have GPU infrastructure
+
+**Choose TGI if:**
+- Using Hugging Face models
+- Need streaming responses
+- Want built-in safety features
+- Prefer official HF support
+
+**Choose llama.cpp if:**
+- Running on CPU or Apple Silicon
+- Edge/mobile deployment
+- Memory constrained
+- Need offline inference
+
+**Choose Ollama if:**
+- Local development
+- Simple API needed
+- Quick prototyping
+- Non-production use
+
+**Choose TensorRT-LLM if:**
+- Need absolute best performance
+- Have NVIDIA GPUs
+- Can handle complex setup
+- Production scale deployment
+
+---
+
+## 💡 Cost Optimization Tips
+
+1. **Use quantization**: INT8 reduces cost by 50% with minimal quality loss
+2. **Spot instances**: Save 60-80% on cloud costs (use for batch processing)
+3. **Continuous batching**: Maximize GPU utilization (vLLM, TGI)
+4. **Right-size models**: 7B models often sufficient (not always need 70B)
+5. **Cache common queries**: Reduce redundant inference
+6. **Use smaller context**: Reduce memory and latency
+7. **Auto-scaling**: Scale down during low traffic
+8. **Regional deployment**: Use cheapest regions for development
+
+---
+
+## 📊 Monitoring Essentials
+
+**Must-Track Metrics:**
+- ⏱️ **Latency**: P50, P95, P99 response times
+- 📊 **Throughput**: Requests per second
+- 💾 **GPU Memory**: Utilization percentage
+- 🔥 **GPU Utilization**: Compute usage
+- ❌ **Error Rate**: Failed requests percentage
+- 💰 **Cost per Request**: Operational costs
+
+**Tools Stack:**
+- Prometheus + Grafana (metrics)
+- LangSmith (LLM-specific tracing)
+- Weights & Biases (experiment tracking)
+- OpenTelemetry (distributed tracing)
+
+---
+
+**Last Updated:** October 2025

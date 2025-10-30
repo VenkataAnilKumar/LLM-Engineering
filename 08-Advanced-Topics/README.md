@@ -2,6 +2,16 @@
 
 RLHF, Alignment, Multimodal, Safety, Emerging research.
 
+## 📊 Legend
+
+- 🟢 **Accessible** - Practical implementations available
+- 🟡 **Research** - Emerging techniques
+- 🔴 **Cutting-Edge** - Active research area
+- ⏱️ **Maturity** - Production readiness
+- 📅 **Updated** - Last verified
+- 🔬 **Experimental** - Research-only
+- 🏭 **Production** - Industry-proven
+
 ---
 
 ## 🎯 RLHF (Reinforcement Learning from Human Feedback)

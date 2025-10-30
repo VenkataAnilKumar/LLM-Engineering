@@ -2,6 +2,16 @@
 
 RAG, Agents, Chatbots, Tool Use, Real-world implementations.
 
+## 📊 Legend
+
+- 🟢 **Beginner** - Easy to implement
+- 🟡 **Intermediate** - Moderate complexity
+- 🔴 **Advanced** - Complex setup/architecture
+- ⏱️ **Implementation Time** - Est. time to build
+- 📅 **Updated** - Last verified
+- 🔧 **Production-Ready** - Battle-tested
+- 🎯 **Use Case** - Primary application
+
 ---
 
 ## 🔍 RAG (Retrieval-Augmented Generation)
@@ -317,6 +327,153 @@ RAG, Agents, Chatbots, Tool Use, Real-world implementations.
 - **Note:** Comprehensive guide to building LLM apps.
 
 ### LlamaIndex Documentation
+- 🟢 Beginner | ⏱️ 10 hours | 📅 Oct 2025
 - **URL:** https://docs.llamaindex.ai/
 - **Type:** Documentation
 - **Note:** Complete guide to RAG and data frameworks.
+
+---
+
+## 🔀 Application Patterns Comparison
+
+### RAG Architecture Patterns
+
+| Pattern | Complexity | Accuracy | Cost | Use Case |
+|---------|------------|----------|------|----------|
+| **Naive RAG** | 🟢 Simple | ⭐⭐⭐ Good | 💰 Low | Basic Q&A, documentation |
+| **Advanced RAG** | 🟡 Moderate | ⭐⭐⭐⭐ High | 💰💰 Medium | Production chatbots |
+| **Modular RAG** | 🔴 Complex | ⭐⭐⭐⭐⭐ Excellent | 💰💰💰 High | Enterprise systems |
+| **Agentic RAG** | 🔴 Complex | ⭐⭐⭐⭐⭐ Excellent | 💰💰💰 High | Complex reasoning |
+| **GraphRAG** | 🔴 Complex | ⭐⭐⭐⭐⭐ Excellent | 💰💰💰 High | Relationship queries |
+
+### Agent Patterns
+
+| Pattern | Autonomy | Tool Use | Reliability | Best For |
+|---------|----------|----------|-------------|----------|
+| **ReAct** | 🤖🤖 Medium | ✅ Yes | ⭐⭐⭐⭐ High | Tool-using tasks |
+| **Plan-and-Execute** | 🤖🤖🤖 High | ✅ Yes | ⭐⭐⭐ Good | Multi-step tasks |
+| **ReWOO** | 🤖🤖 Medium | ✅ Yes | ⭐⭐⭐⭐ High | Efficient reasoning |
+| **Reflexion** | 🤖🤖🤖 High | ✅ Yes | ⭐⭐⭐⭐⭐ Excellent | Self-improvement |
+| **AutoGPT-style** | 🤖🤖🤖🤖 Very High | ✅ Yes | ⭐⭐ Moderate | Autonomous tasks |
+
+### Prompt Techniques
+
+| Technique | Complexity | Performance Gain | Token Cost | When to Use |
+|-----------|------------|------------------|------------|-------------|
+| **Zero-shot** | 🟢 Simple | Baseline | 💰 Low | Simple tasks |
+| **Few-shot** | 🟢 Simple | +20% | 💰💰 Medium | Pattern learning |
+| **Chain-of-Thought** | 🟡 Moderate | +30% | 💰💰 Medium | Reasoning tasks |
+| **Tree-of-Thoughts** | 🔴 Complex | +40% | 💰💰💰 High | Complex reasoning |
+| **ReAct** | 🟡 Moderate | +35% | 💰💰 Medium | Tool-using |
+| **Self-Consistency** | 🟡 Moderate | +25% | 💰💰💰 High | High-stakes tasks |
+
+### Chatbot Types
+
+| Type | Complexity | Capabilities | Memory | Best Use |
+|------|------------|--------------|--------|----------|
+| **Stateless Bot** | 🟢 Simple | Basic Q&A | None | FAQ, simple queries |
+| **Session-based** | 🟡 Moderate | Context tracking | Short-term | Customer support |
+| **Memory-enabled** | 🔴 Complex | Personalization | Long-term | Personal assistant |
+| **Multi-agent** | 🔴 Complex | Specialized tasks | Shared | Enterprise workflows |
+
+---
+
+## 🎓 Implementation Roadmap
+
+### Week 1-2: RAG Fundamentals
+**Build**: Basic RAG chatbot
+1. Choose framework (LlamaIndex recommended for beginners)
+2. Set up vector database (Chroma locally)
+3. Implement document loading and chunking
+4. Create simple Q&A interface
+**Time**: 10-15 hours
+
+### Week 3-4: Advanced RAG
+**Build**: Production-ready RAG
+1. Add reranking (ColBERT via RAGatouille)
+2. Implement hybrid search (BM25 + vector)
+3. Add query transformation
+4. Implement caching and monitoring
+**Time**: 15-20 hours
+
+### Week 5-6: Agent Systems
+**Build**: Tool-using agent
+1. Implement ReAct pattern
+2. Add function calling/tools
+3. Create error handling
+4. Test with multiple tools
+**Time**: 20-25 hours
+
+### Week 7-8: Production Polish
+**Build**: Deployed application
+1. Add evaluation metrics
+2. Implement logging and observability
+3. Create user feedback loop
+4. Deploy with proper security
+**Time**: 15-20 hours
+
+---
+
+## 🔑 Architecture Decisions
+
+### RAG vs Fine-tuning?
+**Use RAG when:**
+- Data changes frequently
+- Need source attribution
+- Limited training resources
+- Domain knowledge in documents
+
+**Use Fine-tuning when:**
+- Need specific tone/style
+- Fixed knowledge base
+- Have quality training data
+- Budget for training
+
+**Use Both when:**
+- Complex domain requirements
+- Need both style and knowledge
+- Production applications
+
+### Vector Database Selection
+**Chroma** → Development, prototyping
+**Qdrant** → Production, complex filtering
+**Pinecone** → Managed service, easy scaling
+**Weaviate** → Multi-modal, graph features
+**FAISS** → Research, maximum performance
+
+### Chunking Strategies
+- **Fixed-size (512 tokens)**: Simple, consistent
+- **Semantic**: Better context, more complex
+- **Recursive**: Good for code, hierarchical docs
+- **Overlap (50-100 tokens)**: Reduces context breaks
+
+---
+
+## 💡 Best Practices
+
+**RAG Optimization:**
+1. **Chunking**: Test different sizes (256-1024 tokens)
+2. **Retrieval**: Use hybrid search (keyword + semantic)
+3. **Reranking**: Add ColBERT or cross-encoder
+4. **Query**: Implement HyDE (hypothetical document embeddings)
+5. **Context**: Use parent document retrieval
+
+**Agent Reliability:**
+1. **Error Handling**: Implement retries with exponential backoff
+2. **Validation**: Verify tool outputs before using
+3. **Limits**: Set max iterations and timeouts
+4. **Logging**: Track all agent decisions
+5. **Human-in-loop**: Allow human override for critical tasks
+
+**Production Checklist:**
+- ✅ Rate limiting
+- ✅ Caching (semantic cache for similar queries)
+- ✅ Monitoring (latency, accuracy, cost)
+- ✅ Feedback collection
+- ✅ A/B testing framework
+- ✅ Fallback mechanisms
+- ✅ Security (input validation, output filtering)
+
+---
+
+**Last Updated:** October 2025

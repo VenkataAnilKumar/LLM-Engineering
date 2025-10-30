@@ -2,6 +2,32 @@
 
 Open datasets, data preparation, training frameworks.
 
+## 📊 Legend
+
+- 🟢 **Beginner** - Ready to use, minimal setup
+- 🟡 **Intermediate** - Requires processing/configuration
+- 🔴 **Advanced** - Complex setup, large-scale
+- 💾 **Size** - Dataset size
+- ⏱️ **Processing Time** - Estimated time to prepare
+- 📅 **Updated** - Last verified date
+- 🔓 **License** - Usage terms
+- 🌍 **Languages** - Language support
+
+---
+
+## 📑 Table of Contents
+
+1. [📚 Pre-training Datasets](#-pre-training-datasets)
+2. [🎯 Instruction & Fine-tuning Datasets](#-instruction--fine-tuning-datasets)
+3. [💻 Code Datasets](#-code-datasets)
+4. [🧪 Evaluation Datasets](#-evaluation-datasets)
+5. [🛠️ Data Processing Tools](#️-data-processing-tools)
+6. [🚀 Training Frameworks](#-training-frameworks)
+7. [🔧 Data Cleaning & Quality](#-data-cleaning--quality)
+8. [📊 Dataset Utilities](#-dataset-utilities)
+9. [📚 Learning Resources](#-learning-resources)
+10. [🔀 Dataset Comparison](#-dataset-comparison)
+
 ---
 
 ## 📚 Pre-training Datasets
@@ -273,7 +299,113 @@ Open datasets, data preparation, training frameworks.
 - **Note:** Relationship between data size, model size, and performance.
 
 ### Chinchilla Paper
+- 🔴 Advanced | ⏱️ 3 hours | 📅 2022
 - **URL:** https://arxiv.org/abs/2203.15556
 - **Title:** Training Compute-Optimal Large Language Models
 - **Authors:** Hoffmann et al. (DeepMind)
 - **Note:** Optimal data/model size trade-offs.
+
+---
+
+## 🔀 Dataset Comparison
+
+### Pre-training Datasets
+
+| Dataset | Size | Languages | Quality | License | Best For |
+|---------|------|-----------|---------|---------|----------|
+| **The Pile** | 825 GB | EN | ⭐⭐⭐⭐⭐ Excellent | Mixed | General pre-training |
+| **C4** | 750+ GB | EN | ⭐⭐⭐⭐ High | ODC-BY | Clean web text |
+| **RedPajama** | 1.2T tokens | EN | ⭐⭐⭐⭐ High | Various | LLaMA-style training |
+| **OSCAR** | ~6 TB | 160+ | ⭐⭐⭐ Good | CC0 | Multilingual |
+| **Wikipedia** | ~20 GB | 300+ | ⭐⭐⭐⭐⭐ Excellent | CC BY-SA | Factual knowledge |
+| **mC4** | Massive | 100+ | ⭐⭐⭐⭐ High | ODC-BY | Multilingual web |
+
+### Instruction Datasets
+
+| Dataset | Size | Type | Quality | Use Case |
+|---------|------|------|---------|----------|
+| **Alpaca** | 52K | Single-turn | ⭐⭐⭐ Good | General instruction following |
+| **Dolly 2.0** | 15K | Single-turn | ⭐⭐⭐⭐ High | Human-quality instructions |
+| **OpenAssistant** | 161K msgs | Multi-turn | ⭐⭐⭐⭐ High | Conversational assistant |
+| **ShareGPT** | Varies | Multi-turn | ⭐⭐⭐ Good | Chat-style interactions |
+| **FLAN** | 1800+ tasks | Task-specific | ⭐⭐⭐⭐⭐ Excellent | Multi-task instruction tuning |
+| **Orca** | Synthetic | Explanation | ⭐⭐⭐⭐ High | Reasoning and explanations |
+
+### Code Datasets
+
+| Dataset | Size | Languages | License | Best For |
+|---------|------|-----------|---------|----------|
+| **The Stack** | 6 TB | 358 | Permissive only | General code training |
+| **CodeParrot** | 50 GB | 50+ | Apache 2.0 | Python-focused training |
+| **StarCoder Data** | 783 GB | 86 | Various | Multi-language code |
+| **GitHub Code** | Massive | 100+ | Various | Real-world code |
+
+### Training Frameworks Comparison
+
+| Framework | Best For | Hardware | Scale | Ease of Use |
+|-----------|----------|----------|-------|-------------|
+| **DeepSpeed** | Large models | Multi-GPU, Multi-node | ⭐⭐⭐⭐⭐ Massive | 🟡 Medium |
+| **Megatron-LM** | Massive scale | Multi-node required | ⭐⭐⭐⭐⭐ Massive | 🔴 Complex |
+| **Accelerate** | Flexibility | Any setup | ⭐⭐⭐⭐ Large | 🟢 Easy |
+| **ColossalAI** | Optimization | Multi-GPU | ⭐⭐⭐⭐ Large | 🟡 Medium |
+| **FSDP** | PyTorch native | Multi-GPU | ⭐⭐⭐⭐ Large | 🟡 Medium |
+| **Axolotl** | Fine-tuning | Single/Multi-GPU | ⭐⭐⭐ Medium | 🟢 Easy |
+
+---
+
+## 🎓 Suggested Learning Path
+
+**Phase 1: Understanding Data (Week 1-2)**
+1. Read Scaling Laws paper (understand data requirements)
+2. Explore The Pile (understand pre-training data composition)
+3. Study Chinchilla paper (optimal data/model ratios)
+4. Download and inspect small datasets (Alpaca, Dolly)
+
+**Phase 2: Data Processing (Week 3-4)**
+1. Learn Hugging Face Datasets library
+2. Practice with data cleaning tools (fastText langdetect)
+3. Implement deduplication (text-dedup)
+4. Create custom dataset for fine-tuning
+
+**Phase 3: Training Setup (Week 5-6)**
+1. Start with Accelerate for simple distributed training
+2. Experiment with DeepSpeed ZeRO stages
+3. Try Axolotl for streamlined fine-tuning
+4. Monitor with Weights & Biases
+
+**Phase 4: Advanced (Week 7-8)**
+1. Explore Megatron-LM for massive scale
+2. Implement custom data pipelines
+3. Study dataset mixing strategies
+4. Benchmark different training configurations
+
+---
+
+## 🔑 Key Considerations
+
+**Dataset Selection:**
+- **Pre-training**: Use diverse, high-quality data (The Pile, RedPajama)
+- **Fine-tuning**: Smaller, domain-specific datasets (1K-50K examples)
+- **Instruction tuning**: Mix multiple instruction datasets (FLAN approach)
+- **Code**: Use filtered datasets (The Stack v2 with opt-out respected)
+
+**Data Quality over Quantity:**
+- Chinchilla scaling laws: ~20 tokens per parameter optimal
+- Quality filtering crucial (deduplication, language detection, toxicity)
+- Human-curated data (Dolly) often better than synthetic (but smaller)
+
+**Training Framework Selection:**
+- **Single GPU**: Standard PyTorch/HF Transformers
+- **Multi-GPU (same node)**: Accelerate or DeepSpeed ZeRO-2
+- **Multi-node**: DeepSpeed ZeRO-3 or Megatron-LM
+- **Consumer GPUs**: Axolotl with QLoRA for efficiency
+
+**Licensing:**
+- Always check dataset licenses (commercial use, redistribution)
+- The Pile: Mixed licenses, check individual sources
+- The Stack v2: Only permissive licenses
+- ShareGPT: Unclear provenance, use with caution
+
+---
+
+**Last Updated:** October 2025
