@@ -7,6 +7,91 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.4.0] - 2025-10-30
+
+### 🚀 New Categories & Supporting Documentation
+
+#### New Categories Added
+
+**10-Benchmarks/**
+- Comprehensive evaluation and benchmarking guide
+- General knowledge benchmarks: MMLU, HellaSwag, ARC, TruthfulQA, Winogrande
+- Code benchmarks: HumanEval, MBPP, MultiPL-E, DS-1000
+- Math benchmarks: GSM8K, MATH
+- Reading comprehension: SQuAD, DROP, QuAC
+- Multilingual: XNLI, FLORES-101, Belebele
+- Safety & bias: BBQ, RealToxicityPrompts, ToxiGen
+- Factuality: FEVER, HaluEval
+- Agent benchmarks: WebArena, AgentBench, GAIA
+- Major leaderboards: Open LLM Leaderboard, ChatBot Arena, AlpacaEval, MT-Bench
+- Evaluation frameworks: lm-evaluation-harness, OpenAI Evals, DeepEval, promptfoo, HELM
+- 5 comparison tables for benchmarks and frameworks
+- Best practices for evaluation
+
+**11-Tools-and-Utilities/**
+- Essential development tools directory
+- IDEs & editors: VS Code, Cursor, PyCharm, Jupyter, Colab, Kaggle
+- IDE extensions: GitHub Copilot, Continue, Codeium, Tabnine
+- CLI tools: llm, aichat, shell-genie, mods
+- Debugging & profiling: W&B, TensorBoard, PyTorch Profiler
+- Monitoring & logging: LangSmith, Phoenix, LangFuse, Helicone
+- Version control: DVC, MLflow, Hugging Face Hub, Git LFS
+- Prompt engineering tools
+- Dataset tools: Label Studio, cleanlab
+- Testing: DeepEval, promptfoo, Giskard
+- Productivity tools
+- 4 comparison tables for tools
+- Getting started recommendations
+
+#### Supporting Documentation
+
+**QUICKSTART.md**
+- 30-day hands-on learning path
+- Week-by-week breakdown (Foundations → Prompt Engineering → RAG → Fine-tuning)
+- Daily tasks with code examples
+- Setup instructions for Python, Ollama, essential libraries
+- 4 progressive projects: Simple chatbot, Advanced chatbot, Document Q&A, Production app
+- Progress checklist with 16 milestones
+- Common issues & solutions
+- 3 career paths after completion
+
+**FAQ.md**
+- Comprehensive Q&A covering 50+ questions
+- 8 major sections:
+  - Getting Started (prerequisites, GPU needs, free resources)
+  - Models & Architecture (GPT vs BERT, model selection, parameters)
+  - Training & Fine-Tuning (RAG vs fine-tuning, costs, LoRA/QLoRA)
+  - Prompting & Usage (techniques, hallucinations, parameters)
+  - RAG & Applications (vector DBs, chunking, accuracy)
+  - Deployment & Production (options, servers, costs)
+  - Costs & Resources (free options, GPU requirements)
+  - Career & Learning (timeline, jobs, paths)
+  - Troubleshooting (CUDA, output quality, performance)
+- Decision tables and actionable advice
+
+**GLOSSARY.md**
+- 200+ terms and acronyms
+- Alphabetically organized A-Z
+- Common acronyms quick reference table
+- Model families quick reference
+- Cross-references to category READMEs
+- Related to FAQ and QUICKSTART
+
+#### Updated Files
+- **README.md**: Added links to new categories (10-11) and supporting docs (QUICKSTART, FAQ, GLOSSARY)
+- **CHANGELOG.md**: Documented v2.4.0 additions
+
+#### Summary of v2.4.0
+- **2 new comprehensive categories** (Benchmarks, Tools)
+- **3 essential supporting documents** (QUICKSTART, FAQ, GLOSSARY)
+- **600+ lines of practical guidance** for beginners
+- **9 new comparison tables** for benchmarks and tools
+- **30-day actionable learning path** with projects
+- **50+ FAQs answered** covering all aspects
+- **200+ terms defined** in glossary
+
+---
+
 ## [2.3.0] - 2025-10-30
 
 ### 🎨 Completed Metadata Enhancement Across ALL Categories

@@ -57,8 +57,27 @@ RLHF, Alignment, Multimodal, Safety
 ### [09. 📚 Learning Resources](./09-Learning-Resources/)
 Free Courses, Papers, YouTube, Books
 
-### [💼 Case Studies](./Case-Studies/)
+### [10. � Benchmarks](./10-Benchmarks/)
+Evaluation metrics, Leaderboards, Testing frameworks
+
+### [11. 🔧 Tools & Utilities](./11-Tools-and-Utilities/)
+IDEs, CLI tools, Debugging, Monitoring, Testing
+
+### [�💼 Case Studies](./Case-Studies/)
 Real-world implementations across 15+ industries
+
+---
+
+## 📖 Quick Start & Support Docs
+
+### [🚀 Quick Start Guide](./QUICKSTART.md)
+30-day practical learning path with hands-on projects
+
+### [❓ Frequently Asked Questions](./FAQ.md)
+Common questions about LLMs, training, deployment, costs
+
+### [📚 Glossary](./GLOSSARY.md)
+Comprehensive terminology and acronyms reference
 
 ---
 
@@ -75,30 +94,29 @@ Real-world implementations across 15+ industries
 | **Applications** | RAG pipelines, Agent frameworks, Chatbot templates |
 | **Advanced Topics** | RLHF papers, Constitutional AI, Vision-Language models, Safety |
 | **Learning Resources** | Stanford CS224N, Fast.ai, Research papers, Technical blogs |
+| **Benchmarks** | MMLU, HumanEval, GSM8K; Leaderboards; Evaluation frameworks |
+| **Tools & Utilities** | IDEs, Extensions, CLI tools, Debugging, Monitoring, Testing |
 | **Case Studies** | Real-world implementations: Healthcare, Finance, Legal, E-Commerce, +12 more |
 
 ---
 
-## � What's New in v2.2.0
+## 🔥 What's New in v2.4.0
 
-**Enhanced with Rich Metadata:**
+**New Categories Added:**
+- � **Benchmarks** — Comprehensive evaluation guide with MMLU, HumanEval, GSM8K, leaderboards
+- 🔧 **Tools & Utilities** — Essential development tools, IDEs, CLI utilities, monitoring
+
+**Supporting Documentation:**
+- � **Quick Start Guide** — 30-day hands-on learning path with daily tasks & projects
+- ❓ **FAQ** — 50+ common questions about LLMs, training, deployment, costs
+- 📚 **Glossary** — 200+ terms and acronyms with cross-references
+
+**Previous Enhancements (v2.2.0 & v2.3.0):**
 - 🟢🟡🔴 **Difficulty badges** on every resource
 - ⏱️ **Time estimates** for courses, papers, and implementations
-- 📅 **Last verified dates** (October 2025)
-- 🔧 **Hands-on indicators** for practical resources
-
-**Comparison Tables Added:**
-- Model comparison (LLaMA vs Mistral vs Gemma)
-- Fine-tuning methods (LoRA vs QLoRA vs Full FT)
-- Framework comparison (LangChain vs LlamaIndex vs Haystack)
-- Vector database comparison (Chroma vs Qdrant vs Pinecone)
-- Tokenizer comparison (tiktoken vs SentencePiece vs HF)
-
-**Learning Paths:**
-- Structured progression for beginners → advanced
-- Curated paper reading lists
-- Week-by-week learning schedules
-- Quick selection guides
+- 23+ **Comparison tables** for models, frameworks, tools, deployment options
+- 10+ **Structured learning paths** from beginner to advanced
+- Architecture decision guides and cost optimization strategies
 
 ---
 
