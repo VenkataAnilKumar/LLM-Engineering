@@ -1,9 +1,38 @@
 # Changelog
 
-All notable changes to the LLM Engineering Hub will be documented in this file.
+All notable changes to the LLM Engineering Roadmap will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [2.0.0] - 2025-10-30
+
+### 🚀 Major Restructure - Curation-Only Format
+
+#### Changed
+- **Complete repository restructure** from tutorial-style to pure curation format
+- **New 9-category organization**:
+  - 01-Fundamentals (Python, ML, Deep Learning, Math)
+  - 02-NLP-Basics (Tokenization, Embeddings, Transformers)
+  - 03-Core-LLMs (Architectures, Fine-tuning, Evaluation)
+  - 04-Data-Training (Datasets, Data Prep, Training)
+  - 05-Frameworks (Hugging Face, LangChain, Ollama, etc.)
+  - 06-Deployment-Ops (Serving, Optimization, Monitoring)
+  - 07-Applications (RAG, Agents, Chatbots)
+  - 08-Advanced-Topics (RLHF, Alignment, Multimodal, Safety)
+  - 09-Learning-Resources (Courses, Papers, Books, Blogs)
+
+#### Removed
+- Old directory structure (Tutorials, Research-Papers, Datasets, etc.)
+- Tutorial-style content and explanations
+- Enhancement planning documents (now obsolete)
+
+#### Added
+- 700+ curated free/open-source resources
+- Strict curation format: URL, Type, 1-2 line factual note only
+- Clear contribution guidelines for curation
 
 ---
 
