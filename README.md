@@ -1,103 +1,91 @@
 ﻿<div align="center">
 
-#  LLM Engineering Hub
-
-### *Your Complete Guide to Large Language Model Engineering*
+# 🚀 LLM Engineering — Free & Open Source Roadmap
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Free](https://img.shields.io/badge/100%25-FREE-success.svg)](.)
 [![Open Source](https://img.shields.io/badge/Open-Source-orange.svg)](.)
 
-**Free, open-source knowledge repository for mastering Large Language Models**
-
-[Get Started](#-get-started)  [Explore Content](#-explore-content)  [Contribute](#-contributing)
+**Curated collection of free and open-source resources for Large Language Model Engineering**
 
 </div>
 
 ---
 
-##  About
+## 📖 About
 
-A comprehensive collection of tutorials, research papers, datasets, tools, and resources for learning and working with Large Language Models - from beginner to advanced level.
+Curated roadmap of **verified, free, and open-source** materials for LLM engineering.
 
-**What's included:**
--  Tutorials (Beginner  Intermediate  Advanced)
--  Research Papers (100+ curated papers)
--  Datasets (50+ free datasets)
--  Tools & Libraries (Complete ecosystem)
--  Fine-Tuning Guides
--  Prompt Engineering Techniques
--  Deployment Strategies
--  Ethics & Safety Guidelines
--  Real-World Case Studies
--  Visualizations & Learning Resources
--  Community Resources
+No tutorials. No explanations. Just links to the best free resources, organized by topic.
 
 ---
 
-##  Get Started
+## �️ Roadmap Categories
 
-### Choose Your Path:
+### [01. 🎓 Fundamentals](./01-Fundamentals/)
+Python, Machine Learning, Deep Learning, Math for ML
 
-** Beginner?** Start here  [Tutorials/Beginner/](./Tutorials/Beginner/)
+### [02. � NLP Basics](./02-NLP-Basics/)
+Tokenization, Embeddings, Transformers
 
-** Already familiar?** Jump to  [Tutorials/Intermediate/](./Tutorials/Intermediate/)
+### [03. 🤖 Core LLMs](./03-Core-LLMs/)
+Model Architectures, Fine-tuning, Evaluation
 
-** Expert level?** Explore  [Tutorials/Advanced/](./Tutorials/Advanced/)
+### [04. �️ Data & Training](./04-Data-Training/)
+Open Datasets, Data Preparation, Cleaning
 
----
+### [05. 🛠️ Frameworks](./05-Frameworks/)
+Hugging Face, LangChain, Ollama, LlamaIndex
 
-##  Explore Content
+### [06. ☁️ Deployment & Ops](./06-Deployment-Ops/)
+Serving, Optimization, Monitoring
 
-### Core Learning Materials
+### [07. 💼 Applications](./07-Applications/)
+RAG, Agents, Chatbots, Tool Use
 
-| Section | What You'll Find | Link |
-|---------|------------------|------|
-|  **Tutorials** | Step-by-step learning paths for all skill levels | [View ](./Tutorials/) |
-|  **Research Papers** | Curated papers on architecture, training, evaluation | [View ](./Research-Papers/) |
-|  **Datasets** | Free datasets for training and experimentation | [View ](./Datasets/) |
-|  **Tools & Libraries** | Frameworks, platforms, and development tools | [View ](./Tools-and-Libraries/) |
+### [08. 🔬 Advanced Topics](./08-Advanced-Topics/)
+RLHF, Alignment, Multimodal, Safety
 
-### Practical Guides
-
-| Section | What You'll Find | Link |
-|---------|------------------|------|
-|  **Fine-Tuning** | Complete guides for model customization | [View ](./Fine-Tuning/) |
-|  **Prompt Engineering** | Techniques, templates, and best practices | [View ](./Prompt-Engineering/) |
-|  **Deployment** | Production deployment strategies | [View ](./Deployment/) |
-|  **Ethics & Safety** | Responsible AI guidelines | [View ](./Ethics-and-Safety/) |
-
-### Additional Resources
-
-| Section | What You'll Find | Link |
-|---------|------------------|------|
-|  **Case Studies** | Real-world LLM implementations | [View ](./Case-Studies/) |
-|  **Visualizations** | Diagrams, charts, and visual learning aids | [View ](./Visualizations/) |
-|  **Community** | Forums, blogs, channels, and events | [View ](./Community-Resources/) |
+### [09. 📚 Learning Resources](./09-Learning-Resources/)
+Free Courses, Papers, YouTube, Books
 
 ---
 
-##  Quick Links
+## � What's Inside Each Category
 
-**Popular Topics:**
-- [Introduction to LLMs](./Tutorials/Beginner/)
-- [Understanding Transformers](./Tutorials/Beginner/)
-- [Fine-Tuning with LoRA/QLoRA](./Fine-Tuning/)
-- [Prompt Engineering Techniques](./Prompt-Engineering/)
-- [Model Deployment Options](./Deployment/)
-- [Research Papers - Model Architecture](./Research-Papers/Model-Architecture/)
-- [Free Datasets Collection](./Datasets/)
-- [LLM Tools Ecosystem](./Tools-and-Libraries/)
+| Category | Content |
+|----------|---------|
+| **Fundamentals** | Python libraries, ML frameworks, Linear Algebra, Calculus resources |
+| **NLP Basics** | Tokenizers, Word embeddings, Transformer implementations |
+| **Core LLMs** | GPT, BERT, LLaMA papers; LoRA, QLoRA guides; Evaluation benchmarks |
+| **Data & Training** | The Pile, C4, RedPajama; Data cleaning tools; Training frameworks |
+| **Frameworks** | Transformers, LangChain, LlamaIndex, Ollama, AutoGPT |
+| **Deployment & Ops** | vLLM, TGI, llama.cpp; Quantization; Monitoring tools |
+| **Applications** | RAG pipelines, Agent frameworks, Chatbot templates |
+| **Advanced Topics** | RLHF papers, Constitutional AI, Vision-Language models, Safety |
+| **Learning Resources** | Stanford CS224N, Fast.ai, Research papers, Technical blogs |
 
 ---
 
-##  Contributing
+## 🚫 Rules
 
-We welcome contributions! Here's how:
+This repository follows strict curation guidelines:
+
+- ❌ **No tutorials or explanations** — links and factual notes only
+- ❌ **No paid or closed resources** — 100% free and open-source
+- ❌ **No conversational tone** — neutral, factual descriptions
+- ✅ **Verified resources only** — official docs, papers, GitHub repos, free courses
+- ✅ **Minimal descriptions** — 1-2 factual lines maximum
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome following these guidelines:
 
 1. **Fork** the repository
-2. **Create** a new branch
-3. **Add** your content (tutorials, papers, resources, etc.)
+2. **Add** verified free/open-source resources only
+3. **Use format**: Title, URL, Type, 1-2 line factual note
 4. **Submit** a pull request
 
 **What we accept:**
