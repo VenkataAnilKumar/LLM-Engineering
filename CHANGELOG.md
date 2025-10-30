@@ -7,6 +7,58 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.5.0] - 2025-10-30
+
+### 📚 Final Core Categories Added
+
+#### New Categories
+
+**12-Research-Papers/**
+- Comprehensive collection of must-read papers organized by topic
+- Foundational papers: Attention Is All You Need, BERT, GPT-2, GPT-3
+- Transformer architecture: Transformer-XL, Reformer, Flash Attention
+- Large language models: LLaMA, LLaMA 2, Mistral, Mixtral
+- Fine-tuning & adaptation: LoRA, QLoRA, Prefix-Tuning, Adapters
+- Prompt engineering: Chain-of-Thought, ReAct, Tree of Thoughts, Lost in the Middle
+- RAG: Original RAG paper, Sentence-BERT, DPR, Self-RAG
+- Alignment & RLHF: InstructGPT, Constitutional AI, DPO, RLAIF
+- Efficient training: 8-bit optimizers, ZeRO, Flash Attention, vLLM
+- Evaluation: MMLU, HumanEval, TruthfulQA, HELM
+- Multimodal: CLIP, Flamingo, GPT-4 Vision
+- Safety: Red Teaming, Adversarial Attacks, Transparency Index
+- 4 curated reading lists by role (Beginners, ML Engineers, Researchers, App Developers)
+- Paper reading strategy guide (3-pass method)
+- 50+ essential papers with summaries, key contributions, reading time estimates
+
+**13-Community/**
+- Discord servers: Hugging Face, OpenAI, LangChain, LlamaIndex, LocalLLaMA, EleutherAI
+- Reddit communities: r/LocalLLaMA, r/MachineLearning, r/ArtificialIntelligence
+- Twitter/X accounts to follow: Researchers (Karpathy, Ng, LeCun), Educators (Alammar, Saravia), Builders (Chase, Willison)
+- Newsletters: The Batch, Import AI, TLDR AI, Ben's Bites, Alpha Signal, LLM Weekly
+- Podcasts: The AI Podcast, Practical AI, TWIML AI, Latent Space
+- YouTube channels: Karpathy, 3Blue1Brown, StatQuest
+- Blogs: Company blogs (OpenAI, Anthropic, Google, Meta, HF) and personal blogs (Lilian Weng, Jay Alammar)
+- Conferences: NeurIPS, ICML, ACL, EMNLP, ICLR, AI Engineer Summit
+- Open source contribution opportunities
+- Study groups and local meetups
+- Getting help guide (Stack Overflow, forums, Discord, Reddit)
+- Community etiquette and best practices
+- 4-week community engagement plan
+
+#### Updated Files
+- **README.md**: Added links to categories 12-13, updated What's Inside table
+- **CHANGELOG.md**: Documented v2.5.0 additions
+
+#### Summary of v2.5.0
+- **2 new essential categories** (Research Papers, Community)
+- **50+ research papers** with summaries and reading guides
+- **4 role-specific reading lists** (15-55 hours each)
+- **100+ community resources** (Discord, Reddit, newsletters, conferences)
+- **Complete learning ecosystem** from papers to community engagement
+- **Repository now feature-complete** with 13 core categories + case studies
+
+---
+
 ## [2.4.0] - 2025-10-30
 
 ### 🚀 New Categories & Supporting Documentation

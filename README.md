@@ -63,6 +63,12 @@ Evaluation metrics, Leaderboards, Testing frameworks
 ### [11. 🔧 Tools & Utilities](./11-Tools-and-Utilities/)
 IDEs, CLI tools, Debugging, Monitoring, Testing
 
+### [12. � Research Papers](./12-Research-Papers/)
+Must-read papers organized by topic with summaries
+
+### [13. 👥 Community](./13-Community/)
+Discord, Reddit, Twitter, Newsletters, Conferences
+
 ### [�💼 Case Studies](./Case-Studies/)
 Real-world implementations across 15+ industries
 
@@ -96,26 +102,32 @@ Comprehensive terminology and acronyms reference
 | **Learning Resources** | Stanford CS224N, Fast.ai, Research papers, Technical blogs |
 | **Benchmarks** | MMLU, HumanEval, GSM8K; Leaderboards; Evaluation frameworks |
 | **Tools & Utilities** | IDEs, Extensions, CLI tools, Debugging, Monitoring, Testing |
+| **Research Papers** | Attention Is All You Need, GPT-3, LLaMA, LoRA, RLHF papers with summaries |
+| **Community** | Discord servers, Reddit, Twitter/X, Newsletters, Conferences, Meetups |
 | **Case Studies** | Real-world implementations: Healthcare, Finance, Legal, E-Commerce, +12 more |
 
 ---
 
-## 🔥 What's New in v2.4.0
+## 🔥 What's New in v2.5.0
 
-**New Categories Added:**
-- � **Benchmarks** — Comprehensive evaluation guide with MMLU, HumanEval, GSM8K, leaderboards
+**Complete Learning Ecosystem — 13 Categories + Supporting Docs:**
+
+**Latest Additions:**
+- 📄 **Research Papers** — 50+ must-read papers with summaries, organized by topic (Transformers, LLMs, Fine-tuning, RLHF, RAG)
+- 👥 **Community** — 100+ resources: Discord servers, Reddit, Twitter/X, newsletters, conferences, meetups
+
+**v2.4.0 Additions:**
+- 📊 **Benchmarks** — Comprehensive evaluation guide with MMLU, HumanEval, GSM8K, leaderboards
 - 🔧 **Tools & Utilities** — Essential development tools, IDEs, CLI utilities, monitoring
-
-**Supporting Documentation:**
-- � **Quick Start Guide** — 30-day hands-on learning path with daily tasks & projects
+- 🚀 **Quick Start Guide** — 30-day hands-on learning path with daily tasks & projects
 - ❓ **FAQ** — 50+ common questions about LLMs, training, deployment, costs
 - 📚 **Glossary** — 200+ terms and acronyms with cross-references
 
-**Previous Enhancements (v2.2.0 & v2.3.0):**
+**Enhanced Features (v2.2.0 & v2.3.0):**
 - 🟢🟡🔴 **Difficulty badges** on every resource
 - ⏱️ **Time estimates** for courses, papers, and implementations
-- 23+ **Comparison tables** for models, frameworks, tools, deployment options
-- 10+ **Structured learning paths** from beginner to advanced
+- 25+ **Comparison tables** for models, frameworks, tools, deployment options
+- 12+ **Structured learning paths** from beginner to advanced
 - Architecture decision guides and cost optimization strategies
 
 ---
