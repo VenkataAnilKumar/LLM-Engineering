@@ -16,7 +16,15 @@
 
 Curated roadmap of **verified, free, and open-source** materials for LLM engineering.
 
-No tutorials. No explanations. Just links to the best free resources, organized by topic.
+Each resource includes:
+- ✅ **Difficulty level** (🟢 Beginner | 🟡 Intermediate | 🔴 Advanced)
+- ⏱️ **Time estimates** for learning/implementation
+- 📅 **Last updated** dates for freshness
+- 🔧 **Hands-on** indicators for practical resources
+- **Comparison tables** for frameworks, models, and tools
+- **Learning paths** for structured progression
+
+No fluff. Just curated links to the best free resources, organized by topic.
 
 ---
 
@@ -71,15 +79,38 @@ Real-world implementations across 15+ industries
 
 ---
 
-## 🚫 Rules
+## � What's New in v2.2.0
+
+**Enhanced with Rich Metadata:**
+- 🟢🟡🔴 **Difficulty badges** on every resource
+- ⏱️ **Time estimates** for courses, papers, and implementations
+- 📅 **Last verified dates** (October 2025)
+- 🔧 **Hands-on indicators** for practical resources
+
+**Comparison Tables Added:**
+- Model comparison (LLaMA vs Mistral vs Gemma)
+- Fine-tuning methods (LoRA vs QLoRA vs Full FT)
+- Framework comparison (LangChain vs LlamaIndex vs Haystack)
+- Vector database comparison (Chroma vs Qdrant vs Pinecone)
+- Tokenizer comparison (tiktoken vs SentencePiece vs HF)
+
+**Learning Paths:**
+- Structured progression for beginners → advanced
+- Curated paper reading lists
+- Week-by-week learning schedules
+- Quick selection guides
+
+---
+
+## 🚫 Curation Rules
 
 This repository follows strict curation guidelines:
 
-- ❌ **No tutorials or explanations** — links and factual notes only
 - ❌ **No paid or closed resources** — 100% free and open-source
-- ❌ **No conversational tone** — neutral, factual descriptions
+- ❌ **No conversational fluff** — data-driven, factual descriptions
 - ✅ **Verified resources only** — official docs, papers, GitHub repos, free courses
-- ✅ **Minimal descriptions** — 1-2 factual lines maximum
+- ✅ **Rich metadata** — difficulty, time, prerequisites, GitHub stars
+- ✅ **Practical focus** — comparison tables, learning paths, selection guides
 
 ---
 

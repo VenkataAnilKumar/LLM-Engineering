@@ -2,6 +2,16 @@
 
 Libraries and frameworks for LLM development: Hugging Face, LangChain, Ollama, LlamaIndex, etc.
 
+## 📊 Legend
+
+- 🟢 **Beginner-friendly** - Easy to start
+- 🟡 **Intermediate** - Some experience needed
+- 🔴 **Advanced** - Complex setup/usage
+- ⏱️ **Setup Time** - Time to get started
+- 📅 **Updated** - Last verified
+- ⭐ **Popular** - Widely used
+- 🔧 **Production-ready** - Battle-tested
+
 ---
 
 ## 🤗 Hugging Face Ecosystem
@@ -349,3 +359,117 @@ Libraries and frameworks for LLM development: Hugging Face, LangChain, Ollama, L
 - **Type:** Framework + UI
 - **License:** MIT
 - **Note:** Run LLMs locally on consumer hardware.
+
+---
+
+## 🔀 Framework Comparison Tables
+
+### Application Frameworks
+
+| Framework | Best For | Learning Curve | Community | Language Support |
+|-----------|----------|----------------|-----------|------------------|
+| **LangChain** | RAG, Agents, Chains | 🟡 Medium | ⭐⭐⭐⭐⭐ Huge | Python, JS |
+| **LlamaIndex** | RAG, Data indexing | 🟢 Easy | ⭐⭐⭐⭐ Large | Python, TS |
+| **Haystack** | Enterprise search | 🟡 Medium | ⭐⭐⭐ Good | Python |
+| **Semantic Kernel** | Microsoft ecosystem | 🟢 Easy | ⭐⭐⭐ Good | C#, Python, Java |
+
+### Deployment Frameworks
+
+| Framework | Performance | Quantization | Batch Support | Best Use Case |
+|-----------|-------------|--------------|---------------|---------------|
+| **vLLM** | ⚡⚡⚡⚡⚡ Excellent | ✅ Yes | ✅ Yes | High-throughput serving |
+| **TGI** | ⚡⚡⚡⚡ Very Good | ✅ Yes | ✅ Yes | Production deployment |
+| **Ollama** | ⚡⚡⚡ Good | ✅ Yes | ❌ No | Local development |
+| **llama.cpp** | ⚡⚡⚡ Good | ✅ Yes | ✅ Limited | CPU inference, edge |
+| **LM Studio** | ⚡⚡ Moderate | ✅ Yes | ❌ No | Desktop GUI |
+
+### Vector Databases
+
+| Database | Performance | Scalability | Cloud Option | Best For |
+|----------|-------------|-------------|--------------|----------|
+| **Chroma** | ⚡⚡⚡ Good | 🟡 Medium | ❌ No | Local development, prototyping |
+| **Qdrant** | ⚡⚡⚡⚡ Excellent | ✅ High | ✅ Yes | Production, filtering |
+| **Weaviate** | ⚡⚡⚡⚡ Excellent | ✅ High | ✅ Yes | Multi-modal, graph |
+| **Milvus** | ⚡⚡⚡⚡⚡ Best | ✅ Very High | ✅ Yes | Large-scale, billions of vectors |
+| **Pinecone** | ⚡⚡⚡⚡ Excellent | ✅ High | ☁️ Cloud-only | Managed, easy setup |
+| **FAISS** | ⚡⚡⚡⚡⚡ Best | 🟡 Medium | ❌ No | Research, local similarity search |
+
+### Agent Frameworks
+
+| Framework | Autonomy Level | Tools Support | Multi-Agent | Complexity |
+|-----------|----------------|---------------|-------------|------------|
+| **AutoGPT** | 🤖🤖🤖🤖 Very High | ✅ Extensive | ❌ No | 🔴 High |
+| **BabyAGI** | 🤖🤖🤖 High | 🟡 Limited | ❌ No | 🟡 Medium |
+| **CrewAI** | 🤖🤖🤖 High | ✅ Good | ✅ Yes | 🟡 Medium |
+| **LangGraph** | 🤖🤖 Medium | ✅ Excellent | ✅ Yes | 🟢 Low-Medium |
+| **MetaGPT** | 🤖🤖🤖🤖 Very High | ✅ Good | ✅ Yes | 🔴 High |
+
+---
+
+## 🎓 Suggested Learning Path
+
+**Week 1-2: Core Libraries**
+1. Start with Hugging Face Transformers (load models, inference)
+2. Learn basic PEFT (LoRA fine-tuning)
+3. Explore Hugging Face Hub (models, datasets)
+
+**Week 3-4: Application Development**
+1. Choose LangChain OR LlamaIndex (start with one)
+2. Build a basic RAG application
+3. Set up vector database (start with Chroma)
+4. Deploy with Ollama locally
+
+**Week 5-6: Production & Optimization**
+1. Learn vLLM or TGI for production serving
+2. Implement observability (LangSmith/W&B)
+3. Practice prompt engineering (DSPy/Guidance)
+4. Build complete application end-to-end
+
+**Week 7-8: Advanced Patterns**
+1. Multi-agent systems (CrewAI or LangGraph)
+2. Advanced RAG techniques (reranking, hybrid search)
+3. Fine-tuning with Axolotl
+4. Evaluation frameworks (LM Harness, DeepEval)
+
+---
+
+## 🔑 Quick Selection Guide
+
+**Choose LangChain if:**
+- Building complex agent workflows
+- Need extensive tool integrations
+- Want large community support
+- Python or JavaScript primary language
+
+**Choose LlamaIndex if:**
+- Focus is on RAG and data indexing
+- Need simple query engines
+- Want clean, intuitive API
+- Primarily working with structured data
+
+**Choose vLLM if:**
+- Need maximum inference throughput
+- Serving many concurrent requests
+- Production deployment at scale
+- Have GPU resources
+
+**Choose Ollama if:**
+- Local development
+- Easy model management
+- Quick prototyping
+- Single-user scenarios
+
+**Choose Chroma if:**
+- Getting started with vector search
+- Local development
+- Prototyping RAG applications
+
+**Choose Qdrant/Weaviate if:**
+- Production vector search
+- Need advanced filtering
+- Scaling to millions of vectors
+- Cloud deployment
+
+---
+
+**Last Updated:** October 2025

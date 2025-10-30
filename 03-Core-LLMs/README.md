@@ -2,6 +2,31 @@
 
 Model architectures, fine-tuning methods, evaluation benchmarks.
 
+## 📊 Legend
+
+- 🟢 **Beginner** - Good starting point
+- 🟡 **Intermediate** - Requires LLM basics
+- 🔴 **Advanced** - Research-level content
+- ⏱️ **Time** - Estimated reading/implementation time
+- 📅 **Updated** - Last verified date
+- 🔧 **Hands-on** - Includes code/implementation
+- 📜 **Paper** - Research paper
+- ⭐ **Popular** - Widely adopted
+
+---
+
+## 📑 Table of Contents
+
+1. [📄 Model Architecture Papers](#-model-architecture-papers)
+2. [🔧 Fine-Tuning Methods](#-fine-tuning-methods)
+3. [🎯 Instruction Tuning](#-instruction-tuning)
+4. [🏆 Evaluation Benchmarks](#-evaluation-benchmarks)
+5. [📊 Evaluation Frameworks](#-evaluation-frameworks)
+6. [🔍 Model Analysis](#-model-analysis)
+7. [🛠️ Open Model Repositories](#️-open-model-repositories)
+8. [📚 Learning Resources](#-learning-resources)
+9. [🔀 Model Comparison Table](#-model-comparison-table)
+
 ---
 
 ## 📄 Model Architecture Papers
@@ -248,7 +273,98 @@ Model architectures, fine-tuning methods, evaluation benchmarks.
 - **Note:** Comprehensive survey of transformer variants.
 
 ### Large Language Models: A Survey
+- 🔴 Advanced | ⏱️ 10 hours | 📅 2023 | 📜 Paper
 - **URL:** https://arxiv.org/abs/2303.18223
 - **Authors:** Zhao et al.
 - **Year:** 2023
 - **Note:** Extensive survey of LLM developments and techniques.
+
+---
+
+## 🔀 Model Comparison Table
+
+### Open Source LLMs (2023-2025)
+
+| Model | Size | Context | License | Architecture | Best For |
+|-------|------|---------|---------|--------------|----------|
+| **LLaMA 2** | 7B-70B | 4K | Commercial OK | Decoder-only | General purpose, chat |
+| **Mistral 7B** | 7B | 32K | Apache 2.0 | Decoder + GQA + SWA | High performance/size ratio |
+| **Mixtral 8x7B** | 47B (8x7B MoE) | 32K | Apache 2.0 | Sparse MoE | Efficient large model |
+| **Gemma** | 2B, 7B | 8K | Gemma License | Decoder-only | Lightweight deployment |
+| **Phi-2** | 2.7B | 2K | MIT | Decoder-only | Small, efficient |
+| **Yi** | 6B-34B | 200K | Apache 2.0 | Decoder-only | Long context |
+| **Qwen** | 7B-72B | 32K | Tongyi Qianwen | Decoder-only | Multilingual |
+
+### Fine-Tuning Methods Comparison
+
+| Method | Parameters Updated | Memory | Training Speed | Use Case |
+|--------|-------------------|--------|----------------|----------|
+| **Full Fine-Tuning** | 100% | 🔴 Very High | 🐌 Slow | Best performance, unlimited data |
+| **LoRA** | <1% | 🟡 Medium | ⚡ Fast | Good balance, limited resources |
+| **QLoRA** | <1% | 🟢 Low | ⚡ Fast | 4-bit quantized, consumer GPU |
+| **Prefix Tuning** | <0.1% | 🟢 Low | ⚡⚡ Very Fast | Few parameters, lightweight |
+| **Adapter Layers** | ~3% | 🟡 Medium | ⚡ Fast | Modular, multi-task |
+
+### Benchmark Scores (Approximate - Oct 2025)
+
+| Model | MMLU | HumanEval | GSM8K | TruthfulQA |
+|-------|------|-----------|-------|------------|
+| **GPT-4** | 86.4 | 67.0 | 92.0 | - |
+| **LLaMA 2 70B** | 68.9 | 29.9 | 56.8 | - |
+| **Mistral 7B** | 62.5 | 30.5 | 52.2 | - |
+| **Mixtral 8x7B** | 70.6 | 40.2 | 74.4 | - |
+| **Gemma 7B** | 64.3 | 32.3 | 50.9 | - |
+
+---
+
+## 🎓 Suggested Learning Path
+
+**Phase 1: Understanding Architectures (2-3 weeks)**
+1. Read "Attention Is All You Need" (Transformer paper)
+2. Study GPT-3, LLaMA, Mistral architecture papers
+3. Watch "State of GPT" by Karpathy
+4. Explore models on Hugging Face Hub
+
+**Phase 2: Fine-Tuning Fundamentals (2-3 weeks)**
+1. Learn LoRA paper and implementation
+2. Study QLoRA for efficient training
+3. Read instruction tuning papers (Alpaca, Vicuna)
+4. Hands-on: Fine-tune a 7B model on custom data
+
+**Phase 3: Evaluation & Analysis (1-2 weeks)**
+1. Understand key benchmarks (MMLU, HumanEval, GSM8K)
+2. Use LM Evaluation Harness
+3. Study emergence and scaling laws
+4. Analyze model behavior and limitations
+
+**Phase 4: Advanced Topics (Ongoing)**
+1. Mixture of Experts (Mixtral paper)
+2. Long context models (Yi, rope scaling)
+3. Model merging and distillation
+4. Latest research on arXiv
+
+---
+
+## 🔑 Key Takeaways
+
+**Model Selection:**
+- **7B models**: Best for local deployment, fine-tuning (Mistral 7B, LLaMA 2 7B)
+- **13-34B models**: Good balance of capability and efficiency
+- **70B+ models**: Maximum capability, requires significant resources
+- **MoE models**: Efficient inference with strong performance (Mixtral)
+
+**Fine-Tuning Strategy:**
+- Use **QLoRA** for consumer GPUs (24GB VRAM)
+- Use **LoRA** for professional GPUs (40GB+ VRAM)
+- Use **Full fine-tuning** only with significant compute budget
+- Start with instruction-tuned base models for chat applications
+
+**Evaluation:**
+- Always benchmark on multiple tasks (not just one metric)
+- Use standardized evaluation frameworks (lm-evaluation-harness)
+- Consider domain-specific benchmarks for specialized applications
+- Test real-world performance, not just academic benchmarks
+
+---
+
+**Last Updated:** October 2025

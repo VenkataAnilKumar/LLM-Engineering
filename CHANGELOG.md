@@ -7,6 +7,58 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.2.0] - 2025-10-30
+
+### 🎨 Enhanced with Rich Metadata & Comparison Tables
+
+#### Added - Metadata Enhancements
+- **Difficulty badges** on all resources:
+  - 🟢 Beginner - No prerequisites required
+  - 🟡 Intermediate - Basic knowledge recommended
+  - 🔴 Advanced - Strong foundation required
+- **Time estimates** for each resource (reading time, course duration, implementation time)
+- **Last updated dates** (October 2025) for freshness verification
+- **Hands-on indicators** (🔧) for practical/code resources
+- **Prerequisites** listed for advanced resources
+- **GitHub stars** for repositories
+- **Popular indicators** (⭐) for widely-used tools
+
+#### Added - Comparison Tables
+- **Model comparison**: LLaMA 2 vs Mistral vs Mixtral vs Gemma vs Phi-2 (size, context, license, use cases)
+- **Fine-tuning methods**: Full FT vs LoRA vs QLoRA vs Prefix Tuning (memory, speed, parameters)
+- **Benchmark scores**: MMLU, HumanEval, GSM8K, TruthfulQA across major models
+- **Application frameworks**: LangChain vs LlamaIndex vs Haystack vs Semantic Kernel
+- **Deployment frameworks**: vLLM vs TGI vs Ollama vs llama.cpp vs LM Studio
+- **Vector databases**: Chroma vs Qdrant vs Weaviate vs Milvus vs Pinecone vs FAISS
+- **Agent frameworks**: AutoGPT vs BabyAGI vs CrewAI vs LangGraph vs MetaGPT
+- **Tokenizer comparison**: tiktoken vs SentencePiece vs HF Tokenizers vs WordPiece
+
+#### Added - Learning Paths
+- **Structured progression** from beginner to advanced for each category
+- **Week-by-week schedules** for 4-8 week learning plans
+- **Phase-based learning** with clear milestones
+- **Paper reading lists** with priority ordering
+- **Quick selection guides** (e.g., "Choose LangChain if...", "Choose Ollama if...")
+
+#### Added - Key Takeaways Sections
+- **Model selection guidelines** (7B vs 70B, when to use MoE)
+- **Fine-tuning strategy recommendations** (QLoRA vs LoRA vs Full FT)
+- **Evaluation best practices** (multiple benchmarks, real-world testing)
+- **Framework selection criteria** (production vs development, scale considerations)
+
+#### Enhanced Categories
+- **01-Fundamentals**: Added legend, TOC, learning paths for 3 learner types
+- **02-NLP-Basics**: Added tokenizer comparison table, paper reading list
+- **03-Core-LLMs**: Added model comparison, benchmark scores, selection guidelines
+- **05-Frameworks**: Added 4 comparison tables, quick selection guide, 8-week learning path
+
+#### Changed
+- Main README updated with "What's New" section
+- Curation rules expanded to include metadata requirements
+- "About" section updated to highlight new features
+
+---
+
 ## [2.1.0] - 2025-10-30
 
 ### ✨ Added Case Studies
