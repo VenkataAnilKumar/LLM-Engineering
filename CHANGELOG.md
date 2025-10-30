@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.0] - 2025-10-30
+
+### ✨ Added Case Studies
+
+#### Added
+- **Case Studies directory** with 100+ real-world LLM implementations
+- Organized by 15+ domains: Healthcare, Finance, Legal, E-Commerce, Education, Software Development, Media, Customer Support, Transportation, Gaming, Manufacturing, Government, Research, Business Intelligence, Hospitality, Pharmaceutical, Marketing, Cybersecurity
+- ROI and impact studies included
+- Success factors and common challenges documented
+
+---
+
 ## [2.0.0] - 2025-10-30
 
 ### 🚀 Major Restructure - Curation-Only Format

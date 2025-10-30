@@ -49,9 +49,12 @@ RLHF, Alignment, Multimodal, Safety
 ### [09. 📚 Learning Resources](./09-Learning-Resources/)
 Free Courses, Papers, YouTube, Books
 
+### [💼 Case Studies](./Case-Studies/)
+Real-world implementations across 15+ industries
+
 ---
 
-## � What's Inside Each Category
+## 📋 What's Inside Each Category
 
 | Category | Content |
 |----------|---------|
@@ -64,6 +67,7 @@ Free Courses, Papers, YouTube, Books
 | **Applications** | RAG pipelines, Agent frameworks, Chatbot templates |
 | **Advanced Topics** | RLHF papers, Constitutional AI, Vision-Language models, Safety |
 | **Learning Resources** | Stanford CS224N, Fast.ai, Research papers, Technical blogs |
+| **Case Studies** | Real-world implementations: Healthcare, Finance, Legal, E-Commerce, +12 more |
 
 ---
 
