@@ -173,6 +173,12 @@
 
 ## 📧 Newsletters
 
+### **AI Weekly**
+- **Link**: [Subscribe](https://aiweekly.co/)
+- **Frequency**: Three times weekly
+- **Content**: Models, agents, funding, policy, and research
+- **Best For**: Discovering what AI experts are reading and sharing right now
+
 ### **The Batch** (DeepLearning.AI)
 - **Link**: [Subscribe](https://www.deeplearning.ai/the-batch/)
 - **Frequency**: Weekly
